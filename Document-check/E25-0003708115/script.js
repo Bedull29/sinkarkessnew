@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
             // Mock data simulation instead of fetch
             // Check if input matches the default value in HTML
             // Note: The user requested to match the code portion attached in index
-            if (noDokumen === 'E25-0003708115') {
+            const jenisDokumen = document.getElementById("jenis_dokumen").value;
+            if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708115') {
                 const d = {
                     nama_pemilik: 'NAWWAF AHMAD HAI***',
                     nomor_paspor: 'Passport E3291333',
@@ -89,6 +90,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (resultBlock) resultBlock.style.display = "none";
             }
         });
+        // Auto-trigger search on page load
+        btnCari.click();
     }
 
     function setText(id, text) {
