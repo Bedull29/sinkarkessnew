@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708118') {
                 const d = {
-                    nama_pemilik: 'MAULIDYA FACHRA N***',
+                    nama_pemilik: 'MAULIDYA FACHRA NISA YU***',
                     nomor_paspor: 'Passport  C7231558',
                     tanggal_lahir: '1999-06-27',
                     no_dokumen: 'E25-0003708118',
