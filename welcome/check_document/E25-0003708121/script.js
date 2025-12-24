@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708121') {
                 const d = {
-                    nama_pemilik: 'SYAHRUL RAMADHAN',
+                    nama_pemilik: 'SYAHRUL RAMAD***',
                     nomor_paspor: 'Passport  E7665368',
                     tanggal_lahir: '1997-01-17',
                     no_dokumen: 'E25-0003708121',
