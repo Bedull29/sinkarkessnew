@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'YUSUF HAFIDZUN A***',
                     nomor_paspor: 'Passport  X5186871',
-                    tanggal_lahir: '2005-12-15',
+                    tanggal_lahir: '2024-12-15',
                     no_dokumen: 'E25-0003708117',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2025-12-24',
