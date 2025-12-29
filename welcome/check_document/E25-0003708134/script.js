@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708134') {
                 const d = {
-                    nama_pemilik: 'NURYATIN SOEMA***',
-                    nomor_paspor: 'Passport  E9849384',
+                    nama_pemilik: '',
+                    nomor_paspor: 'Passport  ',
                     tanggal_lahir: '1974-07-14',
                     no_dokumen: 'E25-0003708134',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
