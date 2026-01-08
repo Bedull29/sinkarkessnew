@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708176') {
                 const d = {
-                    nama_pemilik: 'AHMADULLAH M S***',
-                    nomor_paspor: 'Passport  X8063713',
-                    tanggal_lahir: '1998-07-04',
+                    nama_pemilik: 'WAHYUNA M A***',
+                    nomor_paspor: 'Passport  E8979820',
+                    tanggal_lahir: '1969-03-12',
                     no_dokumen: 'E25-0003708176',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-01-01',

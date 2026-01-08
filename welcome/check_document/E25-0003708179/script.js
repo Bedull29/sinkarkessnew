@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708179') {
                 const d = {
-                    nama_pemilik: 'AHMADULLAH M S***',
-                    nomor_paspor: 'Passport  X8063713',
-                    tanggal_lahir: '1998-07-04',
+                    nama_pemilik: 'HUSNIAH JAKFAR AH***',
+                    nomor_paspor: 'Passport  E4425594',
+                    tanggal_lahir: '1971-08-10',
                     no_dokumen: 'E25-0003708179',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-01-01',

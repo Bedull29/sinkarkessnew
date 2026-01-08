@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708175') {
                 const d = {
-                    nama_pemilik: 'AHMADULLAH M S***',
-                    nomor_paspor: 'Passport  X8063713',
-                    tanggal_lahir: '1998-07-04',
+                    nama_pemilik: 'RIDHWAN AMIR RUD***',
+                    nomor_paspor: 'Passport  X8061170',
+                    tanggal_lahir: '1960-07-17',
                     no_dokumen: 'E25-0003708175',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-01-01',
