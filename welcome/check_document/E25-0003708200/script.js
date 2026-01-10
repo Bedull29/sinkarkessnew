@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     no_dokumen: 'E25-0003708200',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-01-07',
-                    valid_until: '2028-01-15',
+                    valid_until: '2029-01-15',
                     faskes: 'Klinik Utama CT-Klinik',
                     dokter: 'MASAYU PRAKASITA, MD',
                     // Use the image currently in the HTML
