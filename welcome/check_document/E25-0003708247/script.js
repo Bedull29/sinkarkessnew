@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708247') {
                 const d = {
                     nama_pemilik: 'YULEN***',
-                    nomor_paspor: 'Passport  X7040003',
+                    nomor_paspor: 'Passport  X7372130',
                     tanggal_lahir: '1968-07-24',
                     no_dokumen: 'E25-0003708247',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
