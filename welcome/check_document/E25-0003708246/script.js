@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'NELLY RA***',
                     nomor_paspor: 'Passport  X7372101',
-                    tanggal_lahir: '1971-05-23',
+                    tanggal_lahir: '1971-05-27',
                     no_dokumen: 'E25-0003708246',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-01-05',
