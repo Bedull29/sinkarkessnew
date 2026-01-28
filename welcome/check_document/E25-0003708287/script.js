@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708287') {
                 const d = {
-                    nama_pemilik: 'LSRI AI***',
+                    nama_pemilik: 'SRI AI***',
                     nomor_paspor: 'Passport  E5504221',
                     tanggal_lahir: '1972-03-25',
                     no_dokumen: 'E25-0003708287',
