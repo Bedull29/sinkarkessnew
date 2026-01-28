@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708284') {
                 const d = {
-                    nama_pemilik: 'MASRIVAH MANGKAT M***',
+                    nama_pemilik: 'MASRIYAH MANGKAT M***',
                     nomor_paspor: 'Passport  E6179086',
                     tanggal_lahir: '1971-12-26',
                     no_dokumen: 'E25-0003708284',
