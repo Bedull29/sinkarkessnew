@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     tanggal_lahir: '1986-03-20',
                     no_dokumen: 'E25-0003708342',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
-                    tanggal_vaksin: '2026-02-09',
-                    valid_until: '2029-02-09',
+                    tanggal_vaksin: '2026-01-26',
+                    valid_until: '2029-01-26',
                     faskes: 'Klinik Utama CT-Klinik',
                     dokter: 'MASAYU PRAKASITA, MD',
                     // Use the image currently in the HTML
@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     // Polio data
                     jenis_vaksin2: 'POLIO',
-                    tanggal_vaksin2: '2026-02-09',
-                    valid_until2: '2027-02-09'
+                    tanggal_vaksin2: '2026-01-26',
+                    valid_until2: '2027-01-26'
                 };
 
                 // Populate fields
