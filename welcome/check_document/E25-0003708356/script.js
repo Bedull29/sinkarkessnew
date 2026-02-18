@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708356') {
                 const d = {
-                    nama_pemilik: 'DAFIQ ALKAIHIRAN W***',
+                    nama_pemilik: 'DAFIQ ALKHAIRAN W***',
                     nomor_paspor: 'Passport  X4743925',
                     tanggal_lahir: '2025-01-30',
                     no_dokumen: 'E25-0003708356',
