@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     jenis_vaksin: '-',
                     tanggal_vaksin: '-',
                     valid_until: '-',
-                    faskes: '',
-                    dokter: '',
+                    faskes: '-',
+                    dokter: '-',
                     // Use the image currently in the HTML
                     qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E25-0003708375.png',
 
