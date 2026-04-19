@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708428') {
                 const d = {
-                    nama_pemilik: 'ANDI SALWA ADID***',
+                    nama_pemilik: 'ANDI SALWA ADI***',
                     nomor_paspor: 'Passport  X5263300',
                     tanggal_lahir: '2000-05-13',
                     no_dokumen: 'E25-0003708428',
