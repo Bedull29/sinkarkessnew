@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708448') {
                 const d = {
-                    nama_pemilik: 'MUHAMMAD TOMI SI***',
+                    nama_pemilik: 'MUHAMAD TOMI SI***',
                     nomor_paspor: 'Passport  E5920989',
                     tanggal_lahir: '1980-08-17',
                     no_dokumen: 'E25-0003708448',
