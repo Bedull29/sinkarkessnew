@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708455') {
                 const d = {
-                    nama_pemilik: 'ANITA IRW***',
+                    nama_pemilik: 'ANITA IRAW***',
                     nomor_paspor: 'Passport  E7093790',
                     tanggal_lahir: '1988-06-17',
                     no_dokumen: 'E25-0003708455',
