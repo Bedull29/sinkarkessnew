@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708543') {
                 const d = {
-                    nama_pemilik: 'AULIA NORRAHMI',
+                    nama_pemilik: 'AULIA NORRA***',
                     nomor_paspor: 'Passport  X8507290',
                     tanggal_lahir: '1993-06-06',
                     no_dokumen: 'E26-0003708543',
