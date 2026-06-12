@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-12',
                     valid_until: '2029-06-12',
-                    faskes: 'Cilegon (Pelabuan Laut Merak) / Klinik aflaha medika',
+                    faskes: 'Cilegon (Pelabuhan Laut Merak) / Klinik aflaha medika',
                     dokter: 'Dina Mia Sari',
                     // Use the image currently in the HTML
                     qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E26-0003708549.png',
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     jenis_vaksin2: 'POLIO',
                     tanggal_vaksin2: '2026-06-12',
                     valid_until2: '2027-06-12',
-                    faskes2: 'Cilegon (Pelabuan Laut Merak) / Klinik aflaha medika',
+                    faskes2: 'Cilegon (Pelabuhan Laut Merak) / Klinik aflaha medika',
                     dokter2: 'Dina Mia Sari',
 
                 };
