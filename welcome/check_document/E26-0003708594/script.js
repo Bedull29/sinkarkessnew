@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708594') {
                 const d = {
-                    nama_pemilik: 'ISWANTO ARIF BADRIYANTO',
+                    nama_pemilik: 'ISWANTO ARIF BADRIYA***',
                     nomor_paspor: 'Passport  X8470391',
                     tanggal_lahir: '1964-08-14',
                     no_dokumen: 'E26-0003708594',
