@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     tanggal_vaksin: '2025-01-16',
                     valid_until: '2028-01-16',
                     faskes: 'MEDAN',
-                    dokter: '',
+                    dokter: 'dr. Budinato Sigalingging, Sp.PD',
                     // Use the image currently in the HTML
                     qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E26-0003708687.png',
 
