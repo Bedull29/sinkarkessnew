@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708724') {
                 const d = {
-                    nama_pemilik: 'BAJURI MARTO R***',
-                    nomor_paspor: 'Passport  X7136078',
-                    tanggal_lahir: '1951-04-14',
+                    nama_pemilik: 'MUJIATI MA***',
+                    nomor_paspor: 'Passport  X7136108',
+                    tanggal_lahir: '1971-04-14',
                     no_dokumen: 'E26-0003708724',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-17',
