@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'BAJURI MARTO R***',
                     nomor_paspor: 'Passport  X7136078',
-                    tanggal_lahir: '1951-04-14',
+                    tanggal_lahir: '1951-04-04',
                     no_dokumen: 'E26-0003708714',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-17',
