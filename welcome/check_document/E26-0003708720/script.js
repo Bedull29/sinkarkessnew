@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708720') {
                 const d = {
-                    nama_pemilik: 'JOKO MES***',
-                    nomor_paspor: 'Passport  X7136241',
-                    tanggal_lahir: '1958-08-12',
+                    nama_pemilik: 'MISTIYAH B***',
+                    nomor_paspor: 'Passport  X9559889',
+                    tanggal_lahir: '1961-10-10',
                     no_dokumen: 'E26-0003708720',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-17',

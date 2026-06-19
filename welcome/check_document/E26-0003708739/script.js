@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708739') {
                 const d = {
-                    nama_pemilik: 'ARDI NUR I***',
-                    nomor_paspor: 'Passport  E4261904',
-                    tanggal_lahir: '1995-02-20',
+                    nama_pemilik: 'JAUH***',
+                    nomor_paspor: 'Passport  X9559885',
+                    tanggal_lahir: '1969-06-05',
                     no_dokumen: 'E26-0003708739',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-17',

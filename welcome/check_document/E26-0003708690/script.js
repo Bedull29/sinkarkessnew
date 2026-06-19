@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708690') {
                 const d = {
-                    nama_pemilik: 'PARTINAH PAW***',
-                    nomor_paspor: 'Passport  X7136216',
-                    tanggal_lahir: '1964-04-15',
+                    nama_pemilik: 'SITI JOHAR***',
+                    nomor_paspor: 'Passport  X9562827',
+                    tanggal_lahir: '1955-10-07',
                     no_dokumen: 'E26-0003708690',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-17',
