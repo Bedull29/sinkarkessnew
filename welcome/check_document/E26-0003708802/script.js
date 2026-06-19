@@ -20,24 +20,24 @@ document.addEventListener('DOMContentLoaded', function () {
             // Check if input matches the default value in HTML
             // Note: The user requested to match the code portion attached in index
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
-            if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708489') {
+            if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708802') {
                 const d = {
-                    nama_pemilik: '',
-                    nomor_paspor: 'Passport  ',
-                    tanggal_lahir: '',
-                    no_dokumen: 'E25-0003708489',
+                    nama_pemilik: 'DWIYADNO RADI WAGI***',
+                    nomor_paspor: 'Passport  X9562937',
+                    tanggal_lahir: '1959-09-07',
+                    no_dokumen: 'E26-0003708802',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
-                    tanggal_vaksin: '2026-05-29',
-                    valid_until: '2029-05-29',
-                    faskes: '',
-                    dokter: '',
+                    tanggal_vaksin: '2026-06-18',
+                    valid_until: '2029-06-18',
+                    faskes: 'Klinik Utama CT-Klinik',
+                    dokter: 'MASAYU PRAKASITA, MD',
                     // Use the image currently in the HTML
-                    qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E25-0003708489.png',
+                    qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E26-0003708802.png',
 
                     // Polio data
                     jenis_vaksin2: 'POLIO',
-                    tanggal_vaksin2: '2026-05-29',
-                    valid_until2: '2027-05-29'
+                    tanggal_vaksin2: '2026-06-18',
+                    valid_until2: '2027-06-18'
                 };
 
                 // Populate fields
