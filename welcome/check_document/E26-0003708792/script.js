@@ -20,24 +20,24 @@ document.addEventListener('DOMContentLoaded', function () {
             // Check if input matches the default value in HTML
             // Note: The user requested to match the code portion attached in index
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
-            if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708739') {
+            if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708792') {
                 const d = {
-                    nama_pemilik: 'JAUHARI WIRYO M***',
-                    nomor_paspor: 'Passport  X9559885',
-                    tanggal_lahir: '1969-06-05',
-                    no_dokumen: 'E26-0003708739',
+                    nama_pemilik: 'DINO SAPU***',
+                    nomor_paspor: 'Passport  E9939093',
+                    tanggal_lahir: '2005-03-03',
+                    no_dokumen: 'E26-0003708792',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
-                    tanggal_vaksin: '2026-06-17',
-                    valid_until: '2029-06-17',
+                    tanggal_vaksin: '2026-06-18',
+                    valid_until: '2029-06-18',
                     faskes: 'Klinik Utama CT-Klinik',
                     dokter: 'MASAYU PRAKASITA, MD',
                     // Use the image currently in the HTML
-                    qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E26-0003708739.png',
+                    qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E26-0003708792.png',
 
-                    // Influenza data
-                    jenis_vaksin2: 'INFLUENZA',
-                    tanggal_vaksin2: '2026-06-17',
-                    valid_until2: '2027-06-17'
+                    // Polio data
+                    jenis_vaksin2: 'POLIO',
+                    tanggal_vaksin2: '2026-06-18',
+                    valid_until2: '2027-06-18'
                 };
 
                 // Populate fields
@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 setText('res_tanggal_lahir', formatDate(d.tanggal_lahir));
                 setText('res_no_dokumen_text', d.no_dokumen);
                 setText('res_jenis_vaksin', d.jenis_vaksin);
-                setText('res_batch_vaksin', 'MERSI MERSI E3202403001');
                 setText('res_tanggal_vaksin', formatDate(d.tanggal_vaksin));
                 setText('res_valid_until', formatDate(d.valid_until));
 
@@ -65,26 +64,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 const faskesEl = document.getElementById('res_faskes_dokter');
                 if (faskesEl) faskesEl.innerHTML = faskesDokter;
 
-                // Populate Polio Data (First Table, 2nd row)
-                setText('res_jenis_polio', 'POLIO');
-                setText('res_batch_polio', 'BIOFARMA 21000525');
-                setText('res_tanggal_polio', formatDate('2026-06-17'));
-                setText('res_valid_polio', formatDate('2027-06-17'));
-                const faskesElPolio = document.getElementById('res_faskes_polio');
-                if (faskesElPolio) faskesElPolio.innerHTML = faskesDokter;
-
-                // Populate Influenza Data (Second Table)
-                const vaksin2Nama = d.jenis_vaksin2 || 'INFLUENZA';
+                // Populate Polio Data (Second Table)
+                const vaksin2Nama = d.jenis_vaksin2 || 'POLIO';
                 const vaksin2Tgl = d.tanggal_vaksin2 || d.tanggal_vaksin;
 
                 setText('res_vaksin2_nama', vaksin2Nama);
                 setText('res_vaksin2_tanggal', formatDate(vaksin2Tgl));
 
                 // Batch & Booster can be updated to be dynamic later if needed
-                setText('res_vaksin2_batch', 'SANOFI Y3D471V');
+                setText('res_vaksin2_batch', 'BIOFARMA 2101924');
                 setText('res_vaksin2_booster', formatDate(d.valid_until2 || d.valid_until));
 
-                // Reuse faskes/dokter for Influenza
+                // Reuse faskes/dokter for Polio
                 const faskesEl2 = document.getElementById('res_vaksin2_faskes');
                 if (faskesEl2) faskesEl2.innerHTML = faskesDokter;
 
