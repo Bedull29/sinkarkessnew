@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 setText('res_jenis_polio', 'POLIO');
                 setText('res_batch_polio', 'BIOFARMA 21000525');
                 setText('res_tanggal_polio', formatDate('2026-06-18'));
-                setText('res_valid_polio', formatDate('2026-06-18'));
+                setText('res_valid_polio', formatDate('2027-06-18'));
                 const faskesElPolio = document.getElementById('res_faskes_polio');
                 if (faskesElPolio) faskesElPolio.innerHTML = faskesDokter;
 
