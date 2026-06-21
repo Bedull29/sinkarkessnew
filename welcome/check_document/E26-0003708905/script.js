@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'DADDY HERUWA***',
                     nomor_paspor: 'Passport  X9051773',
-                    tanggal_lahir: '1962-16-08',
+                    tanggal_lahir: '1962-06-08',
                     no_dokumen: 'E26-0003708905',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-18',
