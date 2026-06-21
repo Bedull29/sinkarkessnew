@@ -20,17 +20,17 @@ document.addEventListener('DOMContentLoaded', function () {
             // Check if input matches the default value in HTML
             // Note: The user requested to match the code portion attached in index
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
-            if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708489') {
+            if (jenisDokumen === 'icv' && noDokumen === '') {
                 const d = {
-                    nama_pemilik: 'HERMAN DEDI I***',
-                    nomor_paspor: 'Passport  X8570996',
-                    tanggal_lahir: '1985-05-20',
+                    nama_pemilik: '',
+                    nomor_paspor: 'Passport  ',
+                    tanggal_lahir: '',
                     no_dokumen: 'E25-0003708489',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-05-29',
                     valid_until: '2029-05-29',
-                    faskes: 'Klinik Utama CT-Klinik',
-                    dokter: 'MASAYU PRAKASITA, MD',
+                    faskes: '',
+                    dokter: '',
                     // Use the image currently in the HTML
                     qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E25-0003708489.png',
 
