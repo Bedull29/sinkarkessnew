@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'M ALIF FIKR***',
                     nomor_paspor: 'Passport  X9258144',
-                    tanggal_lahir: '2009-04-09',
+                    tanggal_lahir: '2009-02-26',
                     no_dokumen: 'E26-0003708896',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-18',

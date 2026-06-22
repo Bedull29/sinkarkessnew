@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'CUT DINA ANJ***',
                     nomor_paspor: 'Passport  E1703140',
-                    tanggal_lahir: '2010-07-21',
+                    tanggal_lahir: '2010-07-28',
                     no_dokumen: 'E26-0003708883',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-06-18',
