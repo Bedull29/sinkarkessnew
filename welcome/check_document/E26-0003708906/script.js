@@ -22,22 +22,22 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708906') {
                 const d = {
-                    nama_pemilik: 'DAYANTI AHYA SA***',
-                    nomor_paspor: 'Passport  X9051778',
-                    tanggal_lahir: '1995-07-17',
+                    nama_pemilik: 'IKHWAN SAMSUL MAA***',
+                    nomor_paspor: 'Passport  C9072074',
+                    tanggal_lahir: '1993-10-05',
                     no_dokumen: 'E26-0003708906',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
-                    tanggal_vaksin: '2026-06-18',
-                    valid_until: '2029-06-18',
-                    faskes: 'KLINIK PMC',
-                    dokter: 'DR. FIDIANSJAH',
+                    tanggal_vaksin: '2026-06-15',
+                    valid_until: '2029-06-15',
+                    faskes: 'Klinik Utama CT-Klinik',
+                    dokter: 'MASAYU PRAKASITA, MD',
                     // Use the image currently in the HTML
                     qr_code: 'https://raw.githubusercontent.com/sinkarkess/subdomain/refs/heads/main/QR/qr-E26-0003708906.png',
 
-                    // Influenza data
-                    jenis_vaksin2: '',
-                    tanggal_vaksin2: '',
-                    valid_until2: ''
+                    // Polio data
+                    jenis_vaksin2: 'POLIO',
+                    tanggal_vaksin2: '2026-06-15',
+                    valid_until2: '2027-06-15'
                 };
 
                 // Populate fields
@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 setText('res_tanggal_lahir', formatDate(d.tanggal_lahir));
                 setText('res_no_dokumen_text', d.no_dokumen);
                 setText('res_jenis_vaksin', d.jenis_vaksin);
-                setText('res_batch_vaksin', 'MERSI MERSI E3202403001');
                 setText('res_tanggal_vaksin', formatDate(d.tanggal_vaksin));
                 setText('res_valid_until', formatDate(d.valid_until));
 
@@ -65,28 +64,20 @@ document.addEventListener('DOMContentLoaded', function () {
                 const faskesEl = document.getElementById('res_faskes_dokter');
                 if (faskesEl) faskesEl.innerHTML = faskesDokter;
 
-                // Populate Polio Data (First Table, 2nd row)
-                setText('res_jenis_polio', 'POLIO');
-                setText('res_batch_polio', 'BIOFARMA 21000525');
-                setText('res_tanggal_polio', formatDate('2026-06-18'));
-                setText('res_valid_polio', formatDate('2027-06-18'));
-                const faskesElPolio = document.getElementById('res_faskes_polio');
-                if (faskesElPolio) faskesElPolio.innerHTML = faskesDokter;
-
-                // Populate Influenza Data (Second Table)
-                const vaksin2Nama = d.jenis_vaksin2 || '';
-                const vaksin2Tgl = d.tanggal_vaksin2 || '';
+                // Populate Polio Data (Second Table)
+                const vaksin2Nama = d.jenis_vaksin2 || 'POLIO';
+                const vaksin2Tgl = d.tanggal_vaksin2 || d.tanggal_vaksin;
 
                 setText('res_vaksin2_nama', vaksin2Nama);
-                setText('res_vaksin2_tanggal', vaksin2Tgl ? formatDate(vaksin2Tgl) : '');
+                setText('res_vaksin2_tanggal', formatDate(vaksin2Tgl));
 
                 // Batch & Booster can be updated to be dynamic later if needed
-                setText('res_vaksin2_batch', '');
-                setText('res_vaksin2_booster', d.valid_until2 ? formatDate(d.valid_until2) : '');
+                setText('res_vaksin2_batch', 'BIOFARMA 2101924');
+                setText('res_vaksin2_booster', formatDate(d.valid_until2 || d.valid_until));
 
-                // Reuse faskes/dokter for Influenza
+                // Reuse faskes/dokter for Polio
                 const faskesEl2 = document.getElementById('res_vaksin2_faskes');
-                if (faskesEl2) faskesEl2.innerHTML = vaksin2Nama ? faskesDokter : '';
+                if (faskesEl2) faskesEl2.innerHTML = faskesDokter;
 
                 if (msgError) msgError.style.display = "none";
                 if (resultBlock) {
