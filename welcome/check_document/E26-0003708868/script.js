@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     nomor_paspor: 'Passport  E8547505',
                     tanggal_lahir: '1977-07-01',
                     no_dokumen: 'E26-0003708868',
-                    jenis_vaksin: '',
-                    tanggal_vaksin: '',
-                    valid_until: '',
+                    jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
+                    tanggal_vaksin: '2026-06-17',
+                    valid_until: '2026-06-17',
                     faskes: 'Klinik Utama CT-Klinik',
                     dokter: 'MASAYU PRAKASITA, MD',
                     // Use the image currently in the HTML
