@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Check if input matches the default value in HTML
             // Note: The user requested to match the code portion attached in index
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
-            if (jenisDokumen === 'icv' && noDokumen === 'E25-0003708115') {
+            if (jenisDokumen === 'icv' && noDokumen === 'E25-000370811') {
                 const d = {
                     nama_pemilik: 'NAWWAF AHMAD HAI***',
                     nomor_paspor: 'Passport E3291333',
