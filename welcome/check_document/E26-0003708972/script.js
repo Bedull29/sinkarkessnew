@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003708972') {
                 const d = {
-                    nama_pemilik: 'MASAN ABDULLAH AH***',
+                    nama_pemilik: 'HASAN ABDULLAH AH***',
                     nomor_paspor: 'Passport  X9775780',
                     tanggal_lahir: '1945-01-20',
                     no_dokumen: 'E26-0003708972',
