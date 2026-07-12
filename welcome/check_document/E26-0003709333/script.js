@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003709333') {
                 const d = {
-                    nama_pemilik: 'MUHAMMAD ARSYA RAHMAN',
+                    nama_pemilik: 'MUHAMMAD ARSYA RAH***',
                     nomor_paspor: 'Passport  X8508***',
                     tanggal_lahir: '2022-05-20',
                     no_dokumen: 'E26-0003709333',

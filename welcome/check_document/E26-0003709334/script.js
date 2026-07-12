@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003709334') {
                 const d = {
-                    nama_pemilik: 'MELLISA IDNRIYANTI',
+                    nama_pemilik: 'MELLISA IDNRIYA***',
                     nomor_paspor: 'Passport  Y0008***',
                     tanggal_lahir: '1993-08-11',
                     no_dokumen: 'E26-0003709334',

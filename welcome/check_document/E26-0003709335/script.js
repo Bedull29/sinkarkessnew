@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003709335') {
                 const d = {
-                    nama_pemilik: 'ABDURAHMAN MURSAN ABUL',
+                    nama_pemilik: 'ABDURAHMAN MURSAN A***',
                     nomor_paspor: 'Passport  Y0008***',
                     tanggal_lahir: '1978-05-04',
                     no_dokumen: 'E26-0003709335',
