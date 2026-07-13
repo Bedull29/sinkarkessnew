@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'HABIB AR RAH***',
                     nomor_paspor: 'Passport  X4295***',
-                    tanggal_lahir: '2005-10-10',
+                    tanggal_lahir: '2005-10-19',
                     no_dokumen: 'E26-0003709336',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-07-01',
