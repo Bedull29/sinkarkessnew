@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003709347') {
                 const d = {
-                    nama_pemilik: 'SITI BADRI***',
+                    nama_pemilik: 'SITI BADRIYAH SUK***',
                     nomor_paspor: 'Passport  X7865***',
                     tanggal_lahir: '1989-09-06',
                     no_dokumen: 'E26-0003709347',
