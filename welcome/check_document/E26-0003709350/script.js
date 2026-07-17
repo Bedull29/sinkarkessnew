@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003709350') {
                 const d = {
-                    nama_pemilik: 'KANI RASIMUN',
+                    nama_pemilik: 'KANI RASI***',
                     nomor_paspor: 'Passport  X9742***',
                     tanggal_lahir: '1940-07-16',
                     no_dokumen: 'E26-0003709350',
