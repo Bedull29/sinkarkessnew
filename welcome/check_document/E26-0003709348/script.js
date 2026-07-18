@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const jenisDokumen = document.getElementById("jenis_dokumen").value;
             if (jenisDokumen === 'icv' && noDokumen === 'E26-0003709348') {
                 const d = {
-                    nama_pemilik: 'MARIANA APRIYA***',
+                    nama_pemilik: 'MARIANA APRIYANTI AS***',
                     nomor_paspor: 'Passport  X8497***',
                     tanggal_lahir: '1996-04-17',
                     no_dokumen: 'E26-0003709348',
