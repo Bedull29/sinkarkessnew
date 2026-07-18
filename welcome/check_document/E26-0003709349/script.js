@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const d = {
                     nama_pemilik: 'VIRTAWIAH BA***',
                     nomor_paspor: 'Passport  X9778***',
-                    tanggal_lahir: '1950-12-11',
+                    tanggal_lahir: '1950-11-11',
                     no_dokumen: 'E26-0003709349',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
                     tanggal_vaksin: '2026-07-16',
