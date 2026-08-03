@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     tanggal_lahir: '1968-09-04',
                     no_dokumen: 'E26-0003709371',
                     jenis_vaksin: 'MENINGITIS MENINGOCOCCUS',
-                    tanggal_vaksin: '2026-07-13',
-                    valid_until: '2029-07-13',
+                    tanggal_vaksin: '2026-07-18',
+                    valid_until: '2029-07-18',
                     faskes: 'Klinik Pratama Abdul Karim Medika Center',
                     dokter: 'dr. MEGA ROBBIATY UTOMO',
                     // Use the image currently in the HTML
@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     // Polio data
                     jenis_vaksin2: 'POLIO',
-                    tanggal_vaksin2: '2026-07-13',
-                    valid_until2: '2027-07-13'
+                    tanggal_vaksin2: '2026-07-18',
+                    valid_until2: '2027-07-18'
                 };
 
                 // Populate fields
